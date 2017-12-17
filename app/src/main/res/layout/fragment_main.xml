@@ -5,7 +5,8 @@
     android:orientation="vertical">
 
     <!--Toolbar-->
-    <include layout="@layout/my_toolbar" />
+    <include layout="@layout/my_toolbar"
+        android:id="@+id/toolbarMain"/>
 
 
     <!--Content-->
