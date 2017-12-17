@@ -10,6 +10,8 @@
 
     <!--Content-->
     <LinearLayout
+        android:padding="15dp"
+        android:background="#b4ffffff"
         android:layout_margin="@dimen/margin"
         android:orientation="vertical"
         android:layout_width="match_parent"
