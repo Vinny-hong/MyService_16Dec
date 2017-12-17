@@ -62,7 +62,8 @@ public class MainFragment extends Fragment{
 
         getActivity().getSupportFragmentManager()
                 .beginTransaction()
-                .replace(R.id.contentMainFragment, new CalculateFragment())
+                .replace(R.id.contentMainFragment,
+                        CalculateFragment.calculateInstance(moneyString, factorDouble))
                 .addToBackStack(null)
                 .commit();
 
